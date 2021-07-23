@@ -17,7 +17,7 @@ var storage = multer.diskStorage({
 		cb(null, "uploads")
 	},
 	filename: function (req, file, cb) {
-	cb(null, "web-socket.pkg")
+	cb(null, "ssl_console.dmg")
 	}
 })
 	
